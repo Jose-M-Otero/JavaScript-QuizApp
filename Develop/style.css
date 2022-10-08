@@ -1,0 +1,45 @@
+body {
+  background-color: rgba(59, 59, 127, 0.919);
+  height: 100%;
+  text-align: center;
+}
+
+h2,
+h3,
+p,
+span {
+  color: aliceblue;
+}
+
+.hidden {
+  display: none;
+}
+
+.answer_list {
+  list-style-type: none;
+}
+
+.shift_right {
+  float: right;
+}
+
+.inline {
+  display: inline-block;
+}
+
+header {
+  padding: 10px;
+}
+
+.timer {
+  font-size: 10px;
+}
+
+.info_box {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.start {
+  text-align: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Ref url: https://github.com/adambelin/code_quiz -->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Code Quiz!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Develop/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="inline">
+                <h2>Current High Score: <span id = "high-score"></span></h2>
+            </div>
+            <div id="timer" class="timer shift_right inline">
+                <h3>current time: <span id="current_time">40</span></h3>
+            </div>
+            
+        </header>
+        
+
+        <div id="rules" class="info_box">
+            <button id="start" class="start">Start Quiz</button>
+            <div class="info_title">            
+                <span>Rules</span>
+            </div>
+            <div class="info_list"></div>
+            <p>
+               You have 1 minute to complete the quiz after you press the start button.
+                If you answer a question wrong you will be deducted 5 seconds.
+                ake sure to enter your initals at the end to check if you have the high score!
+                When you are ready press the <strong>"Start Quiz"</strong> button
+            </p>
+        </div>
+        <div id="question" class="question hidden">
+            <h2 id="question_title"></h2>
+            <ul class="answer_list">
+                <li><button id="answer_a"></button></li>
+                <li><button id="answer_b"></button></li>
+                <li><button id="answer_c"></button></li>
+                <li><button id="answer_d"></button></li>
+            </ul>
+            <div id="result">
+                
+            </div>
+        </div>
+
+        <div id="enter_initial" class="hidden">
+            <h2>All done!</h2>
+            <span id="final_score"></span>
+            <br />
+            <input id="initials" type="text" placeholder="Enter Initals"></input>
+            <button id="submit" class="submit">Submit</button>
+        </div>
+        
+    </body>
+    <script src="./Develop/script.js"></script>
+</html>
