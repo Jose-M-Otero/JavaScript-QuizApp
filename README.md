@@ -1,4 +1,4 @@
-# Corporate PassWord Generator
+# JavaScript-QuizApp
 
 README.md template provided from: https://github.com/microsoft/vscode and https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide.
 
@@ -35,7 +35,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 Click on [PassWord Generator](https://jose-m-otero.github.io/JavaScript-QuizApp/) to see live website.
 
 <p align="center">
-  <img alt="PassWord Generator" src="https://github.com/Jose-M-Otero/JavaScript-QuizApp/blob/master/Develop/img/JS-QuizApp.png">
+  <img alt="JavaScript-QuizApp" src="https://github.com/Jose-M-Otero/JavaScript-QuizApp/blob/master/Develop/img/JS-QuizApp.png">
 </p>
 
 ## Credits
