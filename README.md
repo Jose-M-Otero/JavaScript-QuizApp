@@ -35,7 +35,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 Click on [PassWord Generator](https://jose-m-otero.github.io/JavaScript-QuizApp/) to see live website.
 
 <p align="center">
-  <img alt="PassWord Generator" src="https://github.com/Jose-M-Otero/CorporatePassWordGenerator/blob/master/Develop/images/03-javascript-homework-demo.png">
+  <img alt="PassWord Generator" src="https://github.com/Jose-M-Otero/JavaScript-QuizApp/blob/master/Develop/img/JS-QuizApp.png">
 </p>
 
 ## Credits
